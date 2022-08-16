@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #c4c4c4;
+    width: 100%;
+    padding: 1rem;
+}
+
+header h1{
+    font-size: 2.5rem;
+}
+
+header h1 i{
+    font-size: 3rem;
+}
+nav{
+    background-color: #312f2f;
+}
+
+nav ul{
+    display: flex;
+    padding-left: 1rem;
+    list-style-type: none;
+}
+
+nav ul li{
+    /* padding: 0.5rem 0.75rem; */
+    display: flex;
+}
+
+nav ul li a{
+    padding: 0.5rem 0.75rem;
+    text-decoration: none;
+    color: #c4c4c4;
+    font-size: 1rem;
+}
+
+nav ul li i{
+    font-size: 1.2rem;
+}
+nav ul li a:hover{
+    color: brown;
+    background-color: #999999;
+}
+
+section.indexcontent{
+    display: flex;
+    font-family: 微軟正黑體;
+}
+
+section.icleft{
+    padding: 2rem;
+}
+
+section.icright{
+    padding: 2rem;
+}
+
+section.icright h5{
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+section.agcontent{
+    padding: 2rem;
+}
+
+.agcontentT,.agcontentM,.agcontentB{
+    padding-bottom: 3rem;
+}
+.math{
+    font-size: 1.2rem;
+    color:red;
+    font-family: 細明體;
+    text-align: center;
+    padding: 10px 0px;
+}
+.agcontentT ol {
+    list-style-type: decimal;
+    padding-left: 1rem;
+}
+
+section.induscontent{
+    padding: 2rem;
+}
+
+section.induscontent hr{
+    margin-bottom: 1.5rem;
+}
+section.induscontentT{
+    padding-bottom: 2rem;
+}
+
+section .induscontentB{
+    display: flex;
+    padding: 0 1rem;
+}
+
+section .induscontentB .induscontentL:nth-child(1){
+    flex-grow: 1;
+    padding: 1rem 2rem;
+}
+
+section .induscontentB .induscontentM:nth-child(2){
+    flex-grow: 2;
+    padding: 1rem 0;
+}
+
+section .induscontentR img{
+    width:850px;
+    padding: 0 1rem;
+}
+
+section.ecocontent{
+    padding: 2rem;
+}
+
+section.ecocontent img{
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    width: 100%;
+}
+
+.ecocontentB{
+    padding-top: 1.5rem;
+}
+
+.ecocontentB ul li a{
+    color: #68e5cd;
+    text-decoration: none;
+}
+
+section.authcontent{
+    padding: 25px;
+}
+
+section.authcontent h2{
+    border-left: 10px solid rgb(231, 74, 74);
+    border-top: 1px dashed rgb(231, 74, 74);
+    border-bottom: 1px dashed rgb(231, 74, 74);
+    border-right: 1px dashed rgb(231, 74, 74);
+    padding: 0 10px;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+}
+section.authcontent .side{
+    width:300px;
+    text-align: center;
+    font-size: 18px;
+    float: left;
+    margin-left: 30%;
+}
+
+section.authcontent .side img{
+    border: dashed 3px rgb(210, 96, 245);
+    border-radius: 50%;
+    margin: 10px;
+}
+
+section.authcontent .side p{
+    background-color: palegreen;
+    border-bottom: 3px solid rgb(37, 224, 37);
+    border-right: 3px solid rgb(37, 224, 37);
+}
+
+section.authcontent .troduce{
+    float: left;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    font-size: 18px;
+    color: #113bf3;
+    line-height: 3rem;
+    text-shadow: 8px 8px 10px rgb(85, 77, 77);
+}
+
+section.authcontent .troduce img{
+    margin-right: 5px;
+    margin-top: 5px;
+}
